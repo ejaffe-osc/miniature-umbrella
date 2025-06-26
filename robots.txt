@@ -1,0 +1,25 @@
+User-agent: AdsBot-Google-Mobile
+Allow: /campaigns/
+
+User-agent: AdsBot-Google
+Allow: /campaigns/
+
+
+User-agent: *
+Disallow: /chunks/
+Disallow: /_assets/
+Disallow: /_documentation/
+Disallow: /_examples/
+Disallow: /_feeds/
+Disallow: /_home/
+Disallow: /_includes/
+Disallow: /_internal/
+Disallow: /_php/
+Disallow: /_shared-sections/
+Disallow: /gwassets/
+Disallow: /error/
+Disallow: /machform/
+Disallow: /search/index.html
+Disallow: /search/index.htm
+Disallow: /search/index.shtml
+Sitemap: https://jetsweb.sitehost.iu.edu/sitemap.xml

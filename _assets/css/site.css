@@ -1,0 +1,345 @@
+/* add custom site CSS here */
+/* fix secondary nav colors */
+.nav-secondary ul li a {
+    color: #fff;
+}
+.nav-secondary ul li a:hover,
+.nav-secondary ul li a:focus {
+    color: #900;
+}
+
+
+/* fix space between news ticker and CTA */
+.ticker{margin-left:0;margin-bottom:1.25rem;padding:0 3.125rem;list-style-type:none}
+
+/*fix belt-nav width to accommodate extra link */
+ .belt .two-thirds {
+  width:66.66667%;
+  float:left
+ }
+
+
+/* add IU pale blue secondary color */
+
+.bg-paleblue,.paleblue .bg-secondary{background-color:#EDFAFD}
+
+main{padding-top:0;position:relative}
+#home main{padding-top:.625rem}
+#home #content.bg-paleblue,#home #content.bg-secondary{margin-top:-.625rem}
+
+main{padding-top:50px}
+#home #content{margin-top:0}
+#home #content.bg-none{margin-top:2.875rem;padding-top:0}
+#home #content.bg-paleblue,#home #content.bg-secondary{margin-top:0}
+
+.bg-paleblue .section-title{color:#000000};
+.bg-paleblue .ticker a:not(.button),.paleblue .bg-secondary .text a:not(.button){
+	color:#000000
+}
+.bg-paleblue .content{color:#000000}
+.bg-paleblue .feature .title{color:#000000;margin-bottom:16px}
+.bg-paleblue .feature .subtitle{color:#004F80;text-transform:uppercase}
+.bg-paleblue .feature .subtitle+.subtitle{margin-top:-1.25rem}
+
+.bg-paleblue.ticker-section a:not(.button),.paleblue .bg-secondary.ticker-section a:not(.button){color:#000000}
+.bg-paleblue.ticker-section a:not(.button):focus,.bg-paleblue.ticker-section a:not(.button):hover,.paleblue .bg-secondary.ticker-section a:not(.button):focus,.paleblue .bg-secondary.ticker-section a:not(.button):hover{color:#004F80}
+.bg-paleblue.ticker-section .slick-next:before,.bg-paleblue.ticker-section .slick-prev:before,.paleblue .bg-secondary.ticker-section .slick-next:before,.paleblue .bg-secondary.ticker-section .slick-prev:before{color:#C6ECF6}
+.bg-paleblue.ticker-section button:focus:before,.bg-paleblue.ticker-section button:hover:before,.paleblue .bg-secondary.ticker-section button:focus:before,.paleblue .bg-secondary.ticker-section button:focus:before,.paleblue .bg-secondary.ticker-section button:hover:before,.skirt a{color:#000}
+.bg-paleblue.ticker-section .slick-next:focus,.bg-paleblue.ticker-section .slick-next:hover,.bg-paleblue.ticker-section .slick-prev:focus,.bg-paleblue.ticker-section .slick-prev:hover,.paleblue .bg-secondary.ticker-section .slick-next:focus,.paleblue .bg-secondary.ticker-section .slick-next:hover,.paleblue .bg-secondary.ticker-section .slick-prev:focus,.paleblue .bg-secondary.ticker-section .slick-prev:hover{background-color:#C6ECF6}
+.bg-paleblue.ticker-section button,.paleblue .bg-secondary.ticker-section button{background-color:#000}
+.bg-paleblue.ticker-section button:focus,.bg-paleblue.ticker-section button:hover,.paleblue .bg-secondary.ticker-section button:focus,.paleblue .bg-secondary.ticker-section button:hover{background:0 0}
+
+
+.bg-paleblue .text a:not(.button),.paleblue .bg-secondary .text a:not(.button){color:#000000}
+.bg-paleblue .text a:not(.button):focus,.bg-paleblue .text a:not(.button):hover,.paleblue .bg-secondary .text a:not(.button):focus,.paleblue .bg-secondary .text a:not(.button):hover{color:#FFFFF}
+
+.bg-paleblue .button:focus,.bg-none .button:focus{box-shadow:0 0 0 .2rem #fff,0 0 0 .35rem #900}
+
+.bg-paleblue .accordion-content,.bg-paleblue .accordion-title,.paleblue .bg-secondary .accordion-content,.paleblue .bg-secondary .accordion-title{border:1px solid #000}
+.bg-paleblue :last-child>.accordion-content:last-child,.paleblue .bg-secondary :last-child>.accordion-content:last-child{border-bottom:1px solid #000}
+.bg-paleblue :last-child:not(.is-active)>.accordion-title,.paleblue .bg-secondary :last-child:not(.is-active)>.accordion-title{border-bottom:none}
+
+
+.bg-paleblue .accordion-title:focus,.paleblue .bg-secondary .accordion-title:focus{box-shadow:0 0 0 .125rem #EDFAFD,0 0 0 .25rem #fff;outline-offset:.125rem}
+
+.bg-paleblue .callout a:not(.button),.paleblue .bg-secondary .callout a:not(.button){color:#004F80}
+.bg-paleblue .callout a:not(.button):focus,.bg-paleblue .callout a:not(.button):hover,.paleblue .bg-secondary .callout a:not(.button):focus,.paleblue .bg-secondary .callout a:not(.button):hover{color:#004F80}
+
+
+.bg-paleblue .feature a:not(.button),.paleblue .bg-secondary .feature a:not(.button){color:#004F80}
+.bg-paleblue .feature a:not(.button):focus,.bg-paleblue .feature a:not(.button):hover,.paleblue .bg-secondary .feature a:not(.button):focus,.paleblue .bg-secondary .feature a:not(.button):hover{color:#004F80}
+
+.bg-paleblue .image-essay a:not(.button),.paleblue .bg-secondary .image-essay a:not(.button){color:#004F80}
+.bg-paleblue .image-essay a:not(.button):focus,.bg-paleblue .image-essay a:not(.button):hover,.paleblue .bg-secondary .image-essay a:not(.button):focus,.paleblue .bg-secondary .image-essay a:not(.button):hover{color:#004F80}
+
+
+.bg-paleblue figure a:not(.button),.paleblue .bg-secondary figure a:not(.button){color:#004F80}
+.bg-paleblue figure a:not(.button):focus,.bg-paleblue figure a:not(.button):hover,.paleblue .bg-secondary figure a:not(.button):focus,.paleblue .bg-secondary figure a:not(.button):hover{color:#004F80}
+
+
+.bg-paleblue .panel--interactive>a:focus,.bg-paleblue .panel--interactive>a:hover,.paleblue .bg-secondary .panel--interactive>a:focus,.paleblue .bg-secondary .panel--interactive>a:hover{border-color:#fff;background:#000}
+.bg-paleblue .panel--interactive>a:focus *,.bg-paleblue .panel--interactive>a:hover *,.paleblue .bg-secondary .panel--interactive>a:focus *,.paleblue .bg-secondary .panel--interactive>a:hover *{color:#EDFAFD}
+
+
+.bg-paleblue .panel a:not(.button),.paleblue .bg-secondary .panel a:not(.button){color:#77F2F2}
+.bg-paleblue .panel a:not(.button):focus,.bg-paleblue .panel a:not(.button):hover,.paleblue .bg-secondary .panel a:not(.button):focus,.paleblue .bg-secondary .panel a:not(.button):hover{color:#004F80}
+.bg-paleblue .panel--interactive>a:focus,.paleblue .bg-secondary .panel--interactive>a:focus{box-shadow:0 0 0 .15rem #EDFAFD,0 0 0 .35rem #fff;outline:0}
+
+
+
+
+
+.bg-paleblue .quote a:not(.button),.bg-paleblue blockquote a:not(.button),.bg-paleblue cite a:not(.button),.paleblue .bg-secondary .quote a:not(.button),.paleblue .bg-secondary blockquote a:not(.button),.paleblue .bg-secondary cite a:not(.button){color:#77F2F2}
+.bg-paleblue .quote a:not(.button):focus,.bg-paleblue .quote a:not(.button):hover,.bg-paleblue blockquote a:not(.button):focus,.bg-paleblue blockquote a:not(.button):hover,.bg-paleblue cite a:not(.button):focus,.bg-paleblue cite a:not(.button):hover,.paleblue .bg-secondary .quote a:not(.button):focus,.paleblue .bg-secondary .quote a:not(.button):hover,.paleblue .bg-secondary blockquote a:not(.button):focus,.paleblue .bg-secondary blockquote a:not(.button):hover,.paleblue .bg-secondary cite a:not(.button):focus,.paleblue .bg-secondary cite a:not(.button):hover{color:#3BEDED}
+
+
+.bg-paleblue .stat a:not(.button),.paleblue .bg-secondary .stat a:not(.button){color:#77F2F2}
+.bg-paleblue .stat a:not(.button):focus,.bg-paleblue .stat a:not(.button):hover,.paleblue .bg-secondary .stat a:not(.button):focus,.paleblue .bg-secondary .stat a:not(.button):hover{color:#3BEDED}
+
+
+
+.bg-paleblue .feed-item a:not(.button),.bg-paleblue .lw_paginate a:not(.button),.bg-paleblue [class^=lw_item] a:not(.button),.paleblue .bg-secondary .feed-item a:not(.button),.paleblue .bg-secondary .lw_paginate a:not(.button),.paleblue .bg-secondary [class^=lw_item] a:not(.button){color:#000000}
+.bg-paleblue .feed-item a:not(.button):focus,.bg-paleblue .feed-item a:not(.button):hover,.bg-paleblue .lw_paginate a:not(.button):focus,.bg-paleblue .lw_paginate a:not(.button):hover,.bg-paleblue [class^=lw_item] a:not(.button):focus,.bg-paleblue [class^=lw_item] a:not(.button):hover,.paleblue .bg-secondary .feed-item a:not(.button):focus,.paleblue .bg-secondary .feed-item a:not(.button):hover,.paleblue .bg-secondary .lw_paginate a:not(.button):focus,.paleblue .bg-secondary .lw_paginate a:not(.button):hover,.paleblue .bg-secondary [class^=lw_item] a:not(.button):focus,.paleblue .bg-secondary [class^=lw_item] a:not(.button):hover{color:#004F80}
+
+
+
+
+
+.bg-paleblue .feed-item .meta,.bg-paleblue .feed-item .meta span,.bg-paleblue .feed-item dl.meta dd,.bg-paleblue [class^=lw_item] .meta,.bg-paleblue [class^=lw_item] .meta span,.bg-paleblue [class^=lw_item] 
+
+dl.meta dd,.paleblue .bg-secondary .feed-item .meta,.paleblue .bg-secondary .feed-item .meta span,.paleblue .bg-secondary .feed-item dl.meta dd,.paleblue .bg-secondary [class^=lw_item] .meta,.paleblue .bg-secondary [class^=lw_item] .meta span,.paleblue .bg-secondary [class^=lw_item] dl.meta dd{color:#000}
+
+/* add IU orange secondary color */
+
+.bg-orange,.orange .bg-secondary{background-color:#DF3603}
+.bg-orange-dark{background-color:#DF3603}
+
+main{padding-top:0;position:relative}
+#home main{padding-top:.625rem}
+#home #content.bg-orange,#home #content.bg-secondary{margin-top:-.625rem}
+
+main{padding-top:50px}
+#home #content{margin-top:0}
+#home #content.bg-none{margin-top:2.875rem;padding-top:0}
+#home #content.bg-orange,#home #content.bg-secondary{margin-top:0}
+
+.bg-orange .section-title{color:#FFFFFF};
+.bg-orange .ticker a:not(.button),.orange .bg-secondary .text a:not(.button){
+	color:#FFFFFF
+}
+.bg-orange .content{color:#FFFFFF}
+.bg-orange .feature .title{color:#FFFFFF;margin-bottom:16px}
+.bg-orange .feature .subtitle{color:#FFE694;text-transform:uppercase}
+.bg-orange .feature .subtitle+.subtitle{margin-top:-1.25rem}
+
+.bg-orange.ticker-section a:not(.button),.orange .bg-secondary.ticker-section a:not(.button){color:#FFFFFF}
+.bg-orange.ticker-section a:not(.button):focus,.bg-orange.ticker-section a:not(.button):hover,.orange .bg-secondary.ticker-section a:not(.button):focus,.orange .bg-secondary.ticker-section a:not(.button):hover{color:#FFE694}
+.bg-orange.ticker-section .slick-next:before,.bg-orange.ticker-section .slick-prev:before,.orange .bg-secondary.ticker-section .slick-next:before,.orange .bg-secondary.ticker-section .slick-prev:before{color:#B11C00}
+.bg-orange.ticker-section button:focus:before,.bg-orange.ticker-section button:hover:before,.orange .bg-secondary.ticker-section button:focus:before,.orange .bg-secondary.ticker-section button:focus:before,.orange .bg-secondary.ticker-section button:hover:before,.skirt a{color:#fff}
+.bg-orange.ticker-section .slick-next:focus,.bg-orange.ticker-section .slick-next:hover,.bg-orange.ticker-section .slick-prev:focus,.bg-orange.ticker-section .slick-prev:hover,.orange .bg-secondary.ticker-section .slick-next:focus,.orange .bg-secondary.ticker-section .slick-next:hover,.orange .bg-secondary.ticker-section .slick-prev:focus,.orange .bg-secondary.ticker-section .slick-prev:hover{background-color:#B11C00}
+.bg-orange.ticker-section button,.orange .bg-secondary.ticker-section button{background-color:#fff}
+.bg-orange.ticker-section button:focus,.bg-orange.ticker-section button:hover,.orange .bg-secondary.ticker-section button:focus,.orange .bg-secondary.ticker-section button:hover{background:0 0}
+
+
+.bg-orange .text a:not(.button),.orange .bg-secondary .text a:not(.button){color:#FFFFFF}
+.bg-orange .text a:not(.button):focus,.bg-orange .text a:not(.button):hover,.orange .bg-secondary .text a:not(.button):focus,.orange .bg-secondary .text a:not(.button):hover{color:#FFFFF}
+
+
+
+.bg-orange .accordion-content,.bg-orange .accordion-title,.orange .bg-secondary .accordion-content,.orange .bg-secondary .accordion-title{border:1px solid #FFF}
+.bg-orange :last-child>.accordion-content:last-child,.orange .bg-secondary :last-child>.accordion-content:last-child{border-bottom:1px solid #FFF}
+.bg-orange :last-child:not(.is-active)>.accordion-title,.orange .bg-secondary :last-child:not(.is-active)>.accordion-title{border-bottom:none}
+
+
+.bg-orange .accordion-title:focus,.orange .bg-secondary .accordion-title:focus{box-shadow:0 0 0 .125rem #DF3603,0 0 0 .25rem #fff;outline-offset:.125rem}
+
+
+.bg-orange .button,.orange .bg-secondary .button{background:#fff;border-color:#fff;color:#900}
+.bg-orange .orange .bg-secondary .button.invert{background:0 0;border-color:#fff;color:#fff}
+
+
+
+.bg-orange .button:focus,.orange .bg-secondary .button:focus{box-shadow:0 0 0 .15rem #DF3603,0 0 0 .3rem #fff}
+.bg-orange .button:focus,.bg-orange .button:hover,.orange .bg-secondary .button:focus,.orange .bg-secondary .button:hover{border-color:#fff;background:#DF3603;color:#fff}
+.bg-orange .button.invert:focus,.orange .bg-secondary .button.invert:focus{box-shadow:0 0 0 .2rem #DF3603,0 0 0 .35rem #fff}
+
+.bg-orange .callout a:not(.button),.orange .bg-secondary .callout a:not(.button){color:#FFE694}
+.bg-orange .callout a:not(.button):focus,.bg-orange .callout a:not(.button):hover,.orange .bg-secondary .callout a:not(.button):focus,.orange .bg-secondary .callout a:not(.button):hover{color:#FFE694}
+
+
+.bg-orange .feature a:not(.button),.orange .bg-secondary .feature a:not(.button){color:#FFE694}
+.bg-orange .feature a:not(.button):focus,.bg-orange .feature a:not(.button):hover,.orange .bg-secondary .feature a:not(.button):focus,.orange .bg-secondary .feature a:not(.button):hover{color:#FFE694}
+
+.bg-orange .image-essay a:not(.button),.orange .bg-secondary .image-essay a:not(.button){color:#FFE694}
+.bg-orange .image-essay a:not(.button):focus,.bg-orange .image-essay a:not(.button):hover,.orange .bg-secondary .image-essay a:not(.button):focus,.orange .bg-secondary .image-essay a:not(.button):hover{color:#FFE694}
+
+
+.bg-orange figure a:not(.button),.orange .bg-secondary figure a:not(.button){color:#FFE694}
+.bg-orange figure a:not(.button):focus,.bg-orange figure a:not(.button):hover,.orange .bg-secondary figure a:not(.button):focus,.orange .bg-secondary figure a:not(.button):hover{color:#FFE694}
+
+
+.bg-orange .panel--interactive>a:focus,.bg-orange .panel--interactive>a:hover,.orange .bg-secondary .panel--interactive>a:focus,.orange .bg-secondary .panel--interactive>a:hover{border-color:#fff;background:#fff}
+.bg-orange .panel--interactive>a:focus *,.bg-orange .panel--interactive>a:hover *,.orange .bg-secondary .panel--interactive>a:focus *,.orange .bg-secondary .panel--interactive>a:hover *{color:#DF3603}
+
+
+.bg-orange .panel a:not(.button),.orange .bg-secondary .panel a:not(.button){color:#77F2F2}
+.bg-orange .panel a:not(.button):focus,.bg-orange .panel a:not(.button):hover,.orange .bg-secondary .panel a:not(.button):focus,.orange .bg-secondary .panel a:not(.button):hover{color:#FFE694}
+.bg-orange .panel--interactive>a:focus,.orange .bg-secondary .panel--interactive>a:focus{box-shadow:0 0 0 .15rem #DF3603,0 0 0 .35rem #fff;outline:0}
+
+
+
+
+
+.bg-orange .quote a:not(.button),.bg-orange blockquote a:not(.button),.bg-orange cite a:not(.button),.orange .bg-secondary .quote a:not(.button),.orange .bg-secondary blockquote a:not(.button),.orange .bg-secondary cite a:not(.button){color:#77F2F2}
+.bg-orange .quote a:not(.button):focus,.bg-orange .quote a:not(.button):hover,.bg-orange blockquote a:not(.button):focus,.bg-orange blockquote a:not(.button):hover,.bg-orange cite a:not(.button):focus,.bg-orange cite a:not(.button):hover,.orange .bg-secondary .quote a:not(.button):focus,.orange .bg-secondary .quote a:not(.button):hover,.orange .bg-secondary blockquote a:not(.button):focus,.orange .bg-secondary blockquote a:not(.button):hover,.orange .bg-secondary cite a:not(.button):focus,.orange .bg-secondary cite a:not(.button):hover{color:#3BEDED}
+
+
+.bg-orange .stat a:not(.button),.orange .bg-secondary .stat a:not(.button){color:#77F2F2}
+.bg-orange .stat a:not(.button):focus,.bg-orange .stat a:not(.button):hover,.orange .bg-secondary .stat a:not(.button):focus,.orange .bg-secondary .stat a:not(.button):hover{color:#3BEDED}
+
+
+
+.bg-orange .feed-item a:not(.button),.bg-orange .lw_paginate a:not(.button),.bg-orange [class^=lw_item] a:not(.button),.orange .bg-secondary .feed-item a:not(.button),.orange .bg-secondary .lw_paginate a:not(.button),.orange .bg-secondary [class^=lw_item] a:not(.button){color:#FFFFFF}
+.bg-orange .feed-item a:not(.button):focus,.bg-orange .feed-item a:not(.button):hover,.bg-orange .lw_paginate a:not(.button):focus,.bg-orange .lw_paginate a:not(.button):hover,.bg-orange [class^=lw_item] a:not(.button):focus,.bg-orange [class^=lw_item] a:not(.button):hover,.orange .bg-secondary .feed-item a:not(.button):focus,.orange .bg-secondary .feed-item a:not(.button):hover,.orange .bg-secondary .lw_paginate a:not(.button):focus,.orange .bg-secondary .lw_paginate a:not(.button):hover,.orange .bg-secondary [class^=lw_item] a:not(.button):focus,.orange .bg-secondary [class^=lw_item] a:not(.button):hover{color:##FFE694}
+
+
+
+
+
+.bg-orange .feed-item .meta,.bg-orange .feed-item .meta span,.bg-orange .feed-item dl.meta dd,.bg-orange [class^=lw_item] .meta,.bg-orange [class^=lw_item] .meta span,.bg-orange [class^=lw_item] 
+
+dl.meta dd,.orange .bg-secondary .feed-item .meta,.orange .bg-secondary .feed-item .meta span,.orange .bg-secondary .feed-item dl.meta dd,.orange .bg-secondary [class^=lw_item] .meta,.orange .bg-secondary [class^=lw_item] .meta span,.orange .bg-secondary [class^=lw_item] dl.meta dd{color:#fff}
+
+/* news and event formatting */
+ .content .it-news-event-listing {
+	 border-bottom: 1px solid #B8B0AB;
+	 display: block;
+	 overflow: auto;
+	 margin: 0 0 1.25rem;
+	 width: 100%;
+	 height: auto;
+}
+ .grid.halves .content .it-news-event-listing, .grid.thirds .content .it-news-event-listing {
+	 width: 95% 
+}
+ .content .it-news-event-listing:last-of-type {
+}
+ .it-news-event-dates {
+	 background: #edecea;
+	 display: inline-block;
+	 float: left;
+	 text-align: center;
+	 padding: .5em .75em;
+	 margin-right:.5em;
+}
+ .grid.halves .it-news-event-dates, .grid.thirds .it-news-event-dates {
+	 background: #fff;
+}
+ .it-news-event-dates p {
+	 font-size: 1.125rem;
+	 margin-bottom: 0;
+	 font-weight: 800;
+	 line-height: 1.4;
+	 text-transform: uppercase;
+}
+ .grid.halves .it-news-event-dates p, .grid.thirds .it-news-event-dates p {
+	 margin-bottom: 0;
+	 font-size: 0.875rem;
+	 font-weight: 800;
+	 line-height: 1.4;
+	 text-transform: uppercase;
+}
+ .it-news-event-dates p span {
+	 text-transform: uppercase;
+}
+ .it-news-event-day {
+	/*font-size: 1.15em;
+	*/
+	 font-weight: 700;
+}
+ .it-news-event-title-summary {
+	 width: 83.3333%;
+	 display: inline-block;
+}
+ .grid.halves .it-news-event-title-summary p, .grid.thirds .it-news-event-title-summary p {
+	 font-size: 1rem;
+}
+ a .it-news-event-title-summary {
+	 color: #45382B;
+}
+ .grid.halves .it-news-event-title-summary h4, .grid.thirds .it-news-event-title-summary h4 {
+	 font-size: 1.125rem;
+	 margin-bottom: .5em;
+}
+ @media screen and (max-width: 40em) {
+	 .grid.halves .content .it-news-event-listing, .grid.thirds .content .it-news-event-listing {
+		 width: 100% 
+	}
+	 .it-news-event-title-summary {
+		 padding-left: .5em;
+	}
+}
+ a:hover .it-news-event-title-summary h4 {
+	 text-decoration: underline;
+}
+ ul.feed {
+}
+ ul.feed li.news {
+	 border-bottom: 1px solid #B8B0AB;
+	 margin-top: 1.25rem;
+	 overflow: auto;
+	 height: auto;
+}
+ ul.feed li.news:last-child {
+	 border-bottom: none;
+}
+ .it-news-article-listing {
+	 display: block;
+	 overflow: auto;
+	 padding-top: .5em;
+	 width: 100%;
+	 height: auto;
+}
+ #home .it-news-article-listing {
+	 padding-top: 0;
+}
+ a .it-news-article-listing p {
+	 color: #45382B;
+}
+ .news.feed-item .content .it-news-article-listing .it-news-article-title-summary p {
+	/*font-size: .8em;
+	*/
+}
+ #home .news.feed-item .content .it-news-article-listing .it-news-article-title-summary p {
+	 font-size: 1.025rem;
+}
+ .news.feed-item .content .it-news-article-listing .it-news-article-title-summary h4 {
+	/*font-size: .9em;
+	*/
+}
+ #home .news.feed-item .content .it-news-article-listing .it-news-article-title-summary h4 {
+	 font-size: 1.125rem;
+}
+ a:hover .it-news-article-listing .it-news-article-title-summary h4 {
+	 text-decoration: underline;
+}
+ .news.feed-item .content .it-news-article-date p {
+	 font-size: 1rem;
+	 text-transform: uppercase;
+	 font-family: "BentonSansCondRegular", "BentonSans", sans-serif;
+	 margin: 1em 0 2em;
+}
+ #home .news.feed-item .content .it-news-article-date p {
+	 font-size: 0.875rem;
+ }
+.landmarks.search-open .nav-secondary{
+	 margin-top:3px !important;
+}
+
+.bg-mahogany .button:focus, .bg-mahogany .button:hover, .mahogany .bg-secondary .button:focus, .mahogany .bg-secondary .button:hover{
+    background-color:#900;
+}
+
+div#news a {
+    text-decoration: underline;
+}
